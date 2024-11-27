@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 3%;
+    background-color: rgba(246, 246, 235, 0.795);
+    border-radius: 3%;
+}
+
+.main-buttons, #post-job-submit-button{
+    border: 2px solid black;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 40%;
+    background-color: rgb(24, 97, 191);
+    margin: 0 auto;
+}
+
+.main-buttons:hover, input[type="submit"]:hover, #return-home-button:hover, #return-home-button-centerred:hover, #return-search-a-job-vacancy-button:hover{
+    cursor: pointer;
+}
+
+.main-buttons a, #return-home-button a, #return-post-a-job-vacancy-button a, #return-home-button-centerred a, #post-job-submit-button, #return-search-a-job-vacancy-button a{
+    color: white;
+}
+
+#post-a-job-vacancy-heading{
+    margin-top:0;
+    margin-bottom: 1%;
+}
+
+table{
+    width:100%;
+    border-spacing: 0 15px;
+}
+
+table tr td, #postjobprocess-errors-list li, #errors-heading{
+    text-align: left;
+}
+
+table tr td:first-child{
+    font-weight: bold;
+}
+
+#return-home-button{
+    border: 2px solid black;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 25%;
+    background-color: rgb(24, 97, 191);
+    margin-top:3%;
+}
+
+#errors-heading{
+    color:rgb(222, 3, 3);
+}
+
+#return-post-a-job-vacancy-button{
+    border: 2px solid black;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 30%;
+    background-color: rgb(24, 97, 191);
+    margin-top:3%; 
+}
+
+#successful-form-submission-heading{
+    color:green;
+}
+
+#return-home-button-centerred{
+    border: 2px solid black;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 25%;
+    background-color: rgb(24, 97, 191);
+    margin: 0 auto;
+}
+
+#search-job-submit-button{
+    border: 2px solid black;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 40%;
+    background-color: rgb(24, 97, 191);
+    color:white;
+}
+
+#main-about-this-assignment-div #return-home-button{
+    margin: 0 auto;
+}
+
+#main-about-this-assignment-div, #main-searchjobprocess-div{
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+}
+
+.my_discussion_board_replies{
+    width: 100%;
+}
+
+#main-searchjobprocess-div{
+    text-align: left;
+}
+
+#return-search-a-job-vacancy-button{
+    border: 2px solid black;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 3%;
+    width: 41%;
+    background-color: rgb(24, 97, 191);
+    color:white;
+}
+
+#available-jobs-heading{
+    text-align: center;
+}
